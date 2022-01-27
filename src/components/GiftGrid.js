@@ -3,6 +3,7 @@ import { useState, useEffect, Fragment } from "react/cjs/react.development";
 //import { getGifs } from "../helpers/getGifs";
 import { useFetchGifs } from "../hooks/useFetchGifs";
 import { GifGridItem } from "./GifGridItem";
+import PropTypes from "prop-types";
 
 export const GifGrid = ({ category }) => {
 	// U S E   F E T C H   G I F T S
@@ -34,3 +35,8 @@ export const GifGrid = ({ category }) => {
 					<li key={img.id}>{img.title}</li>
 				))}
 			</ol>*/
+
+// P R O P T Y P E S
+GifGrid.propTypes = {
+	category: PropTypes.string.isRequired,
+};

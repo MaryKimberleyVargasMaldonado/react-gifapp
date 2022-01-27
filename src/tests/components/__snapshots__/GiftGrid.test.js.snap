@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en GiftGrid.js 1. Snapshot : 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Husky
+  </h3>
+  <p
+    className="animate__animate animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Prueba en GiftGrid.js 2. Mostrar items cuando cargan imágenes en useFetchGifs:  1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Husky
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="HUMB"
+      key="HUMB"
+      title="cualquier"
+      url="https://localhost/cualquier.jpg"
+    />
+  </div>
+</Fragment>
+`;
